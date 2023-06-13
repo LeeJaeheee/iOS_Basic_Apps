@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  01_StockRank
-//
-//  Created by 이재희 on 2023/05/23.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
