@@ -14,6 +14,7 @@
 		947AABAA281045C800357C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947AABA8281045C800357C53 /* LaunchScreen.storyboard */; };
 		947AABD22810507F00357C53 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AABD12810507F00357C53 /* Chat.swift */; };
 		D28DA1E32A418D060053787E /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DA1E22A418D060053787E /* ChatListViewController.swift */; };
+		D28DA1E52A4195EC0053787E /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DA1E42A4195EC0053787E /* ChatListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		947AABAB281045C800357C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947AABD12810507F00357C53 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		D28DA1E22A418D060053787E /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		D28DA1E42A4195EC0053787E /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				947AABA8281045C800357C53 /* LaunchScreen.storyboard */,
 				947AABAB281045C800357C53 /* Info.plist */,
 				D28DA1E22A418D060053787E /* ChatListViewController.swift */,
+				D28DA1E42A4195EC0053787E /* ChatListCollectionViewCell.swift */,
 			);
 			path = ChatList;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28DA1E52A4195EC0053787E /* ChatListCollectionViewCell.swift in Sources */,
 				947AAB9E281045C700357C53 /* AppDelegate.swift in Sources */,
 				947AABD22810507F00357C53 /* Chat.swift in Sources */,
 				D28DA1E32A418D060053787E /* ChatListViewController.swift in Sources */,
