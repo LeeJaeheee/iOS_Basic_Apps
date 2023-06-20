@@ -11,7 +11,8 @@ class ChatListViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let chatList: [Chat] = Chat.list
+    // 과제 1: 채팅 리스트 날짜 최신순으로 정렬
+    let chatList: [Chat] = Chat.list.sorted(by: {$0.date > $1.date})
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -19,6 +19,9 @@ class ChatListCollectionViewCell: UICollectionViewCell {
         nameLabel.text = chat.name
         chatLabel.text = chat.chat
         dateLabel.text = formattedDateString(dateString: chat.date)
+        
+        // 과제 2: thumbnail 모서리 둥글게 만들기
+        thumbnail.layer.cornerRadius = 8
     }
     
     func formattedDateString(dateString: String) -> String {
