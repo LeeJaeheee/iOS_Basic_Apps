@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q2b-5e-ag2">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cxh-z1-qrw">
                                     <size key="itemSize" width="128" height="183"/>
@@ -70,8 +70,8 @@
                         <constraints>
                             <constraint firstItem="Q2b-5e-ag2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ch-ek-oR0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q2b-5e-ag2" secondAttribute="trailing" id="8LL-Ac-Pzz"/>
-                            <constraint firstItem="Q2b-5e-ag2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aR2-KW-Az5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q2b-5e-ag2" secondAttribute="bottom" id="yR0-3C-RrN"/>
+                            <constraint firstItem="Q2b-5e-ag2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aR2-KW-Az5"/>
+                            <constraint firstAttribute="bottom" secondItem="Q2b-5e-ag2" secondAttribute="bottom" id="yR0-3C-RrN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="🤩 Apple Frameworks" id="COY-lr-dfJ"/>
