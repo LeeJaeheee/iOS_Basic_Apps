@@ -14,6 +14,7 @@
 		D2CCCABA2A43E12A002370BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CCCAB82A43E12A002370BF /* LaunchScreen.storyboard */; };
 		D2CCCAC22A43E201002370BF /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCAC12A43E201002370BF /* FrameworkData.swift */; };
 		D2CCCAC42A43E67A002370BF /* FrameworkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCAC32A43E67A002370BF /* FrameworkListViewController.swift */; };
+		D2CCCAC62A43E9C5002370BF /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCCAC52A43E9C5002370BF /* FrameworkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D2CCCABB2A43E12A002370BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2CCCAC12A43E201002370BF /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
 		D2CCCAC32A43E67A002370BF /* FrameworkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewController.swift; sourceTree = "<group>"; };
+		D2CCCAC52A43E9C5002370BF /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D2CCCABB2A43E12A002370BF /* Info.plist */,
 				D2CCCAC12A43E201002370BF /* FrameworkData.swift */,
 				D2CCCAC32A43E67A002370BF /* FrameworkListViewController.swift */,
+				D2CCCAC52A43E9C5002370BF /* FrameworkCell.swift */,
 			);
 			path = AppleFramework;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				D2CCCAAE2A43E129002370BF /* AppDelegate.swift in Sources */,
 				D2CCCAB02A43E129002370BF /* SceneDelegate.swift in Sources */,
 				D2CCCAC22A43E201002370BF /* FrameworkData.swift in Sources */,
+				D2CCCAC62A43E9C5002370BF /* FrameworkCell.swift in Sources */,
 				D2CCCAC42A43E67A002370BF /* FrameworkListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
