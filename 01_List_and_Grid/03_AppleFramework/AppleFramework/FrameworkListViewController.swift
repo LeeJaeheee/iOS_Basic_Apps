@@ -55,6 +55,12 @@ extension FrameworkListViewController: UICollectionViewDelegateFlowLayout {
         
         // 셀의 너비와 높이 설정
         let width = (collectionView.bounds.width - interItemSpacing * 2 - padding * 2) / 3
+        
+        // 과제 : 한 라인에 셀 두 칸으로 만들어보기
+        //let width = (collectionView.bounds.width - interItemSpacing - padding * 2) / 2
+        // 과제 : 한 라인에 셀 네 칸으로 만들어보기
+        //let width = (collectionView.bounds.width - interItemSpacing * 3 - padding * 2) / 4
+        
         let height = width * 1.5
         
         return CGSize(width: width, height: height)
@@ -68,5 +74,12 @@ extension FrameworkListViewController: UICollectionViewDelegateFlowLayout {
     // 라인 사이 수직 간격 설정
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
+    }
+}
+
+extension FrameworkListViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let framework = list[indexPath.item]
+        print(">>> selected: \(framework.name)")
     }
 }
