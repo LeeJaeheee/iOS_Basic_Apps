@@ -18,6 +18,8 @@ class FrameworkListViewController: UIViewController {
 
         collectionView.dataSource = self
         collectionView.delegate = self
+        
+        collectionView.contentInset = UIEdgeInsets(top: 20, left: 16, bottom: 0, right: 16)
     }
     
     
@@ -48,9 +50,11 @@ extension FrameworkListViewController: UICollectionViewDelegateFlowLayout {
         
         // 셀 사이 수평 간격
         let interItemSpacing: CGFloat = 10
+        // contentInset 고려
+        let padding: CGFloat = 16
         
         // 셀의 너비와 높이 설정
-        let width = (collectionView.bounds.width - interItemSpacing * 2) / 3
+        let width = (collectionView.bounds.width - interItemSpacing * 2 - padding * 2) / 3
         let height = width * 1.5
         
         return CGSize(width: width, height: height)
